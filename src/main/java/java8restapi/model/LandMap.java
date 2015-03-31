@@ -88,5 +88,4 @@ public class LandMap<K,W> {
         return p;
         };
     }
-
 }

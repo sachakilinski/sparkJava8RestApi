@@ -15,7 +15,6 @@ public class StateTransfer {
         NOT_EXISTING_CONNECTION, EXISTING_CONNECTION, SELF_CONNECTION, NOT_POSIITVE_DISTANCE
     };
 
-
     public StateTransfer(operations operation, Map data){
         this.data = data;
         this.operation = operation;
@@ -37,15 +36,7 @@ public class StateTransfer {
         return data;
     }
 
-    public void setData(Map data) {
-        this.data = data;
-    }
-
     public operations getOperation() {
         return operation;
-    }
-
-    public void setOperation(operations operation) {
-        this.operation = operation;
     }
 }
