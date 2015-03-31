@@ -1,12 +1,9 @@
-package cainterview.functions;
+package java8restapi.functions;
 
-import cainterview.model.StateTransfer;
+import java8restapi.model.StateTransfer;
 import spark.Response;
-import spark.ResponseTransformer;
 
-import java.util.function.BiConsumer;
 import java.util.function.BiFunction;
-import java.util.function.Consumer;
 import java.util.function.Function;
 
 public class ResponseFormatter {

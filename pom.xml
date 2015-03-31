@@ -17,7 +17,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>cainterview.Main</mainClass>
+                            <mainClass>java8restapi.Main</mainClass>
                             <addClasspath>true</addClasspath>
                             <classpathLayoutType>repository</classpathLayoutType>
                             <classpathPrefix>${M2_REPO}</classpathPrefix>

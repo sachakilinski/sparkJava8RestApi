@@ -1,6 +1,6 @@
-package cainterview.model;
+package java8restapi.model;
 
-import cainterview.init.LandMapCsvInitializer;
+import java8restapi.init.LandMapCsvInitializer;
 
 import java.util.*;
 import java.util.function.Function;

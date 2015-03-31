@@ -1,16 +1,11 @@
 package contract;
 
-import cainterview.Main;
-import org.eclipse.jetty.server.Connector;
-import org.eclipse.jetty.server.Server;
-import org.eclipse.jetty.server.ServerConnector;
-import org.eclipse.jetty.webapp.WebAppContext;
+import java8restapi.Main;
 import org.junit.*;
 import spark.Spark;
 
 
 import static java.lang.Thread.sleep;
-import static spark.Spark.*;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 

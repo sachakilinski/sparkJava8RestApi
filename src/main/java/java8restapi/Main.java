@@ -1,17 +1,17 @@
-package cainterview;
+package java8restapi;
 
-import cainterview.init.Initializer;
-import cainterview.model.LandMap;
-import cainterview.model.RouteHandler;
-import cainterview.model.StateTransfer;
+import java8restapi.init.Initializer;
+import java8restapi.model.LandMap;
+import java8restapi.model.RouteHandler;
+import java8restapi.model.StateTransfer;
 import com.google.gson.Gson;
 
 import java.util.List;
 
-import static cainterview.functions.RequestParserer.*;
-import static cainterview.functions.StateTransferer.*;
-import static cainterview.functions.ResponseFormatter.*;
-import static cainterview.functions.StateTransferValidator.*;
+import static java8restapi.functions.RequestParserer.*;
+import static java8restapi.functions.StateTransferer.*;
+import static java8restapi.functions.ResponseFormatter.*;
+import static java8restapi.functions.StateTransferValidator.*;
 import static spark.Spark.*;
 
 public class Main {

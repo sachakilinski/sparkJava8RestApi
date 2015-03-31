@@ -1,7 +1,7 @@
-package cainterview.functions;
+package java8restapi.functions;
 
-import cainterview.model.StateTransfer;
-import cainterview.model.LandMap;
+import java8restapi.model.StateTransfer;
+import java8restapi.model.LandMap;
 
 import java.util.Map;
 import java.util.Optional;

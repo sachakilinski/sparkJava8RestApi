@@ -1,4 +1,4 @@
-package cainterview.model;
+package java8restapi.model;
 
 import java.util.ArrayList;
 import java.util.List;

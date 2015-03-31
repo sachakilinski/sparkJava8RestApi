@@ -1,6 +1,6 @@
-package cainterview.init;
+package java8restapi.init;
 
-import cainterview.model.LandMap;
+import java8restapi.model.LandMap;
 
 import java.util.List;
 

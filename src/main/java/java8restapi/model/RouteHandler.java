@@ -1,4 +1,4 @@
-package cainterview.model;
+package java8restapi.model;
 
 import spark.Request;
 import spark.Response;
@@ -7,9 +7,9 @@ import spark.Route;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
-import static cainterview.functions.StateTransferer.transferState;
-import static cainterview.functions.ResponseFormatter.createResponse;
-import static cainterview.functions.StateTransferValidator.validate;
+import static java8restapi.functions.StateTransferer.transferState;
+import static java8restapi.functions.ResponseFormatter.createResponse;
+import static java8restapi.functions.StateTransferValidator.validate;
 
 public class RouteHandler {
     private Function<Request, StateTransfer> requestParserer;

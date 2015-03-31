@@ -1,6 +1,6 @@
 package unit;
 
-import cainterview.model.LandMap;
+import java8restapi.model.LandMap;
 import org.junit.Test;
 
 import java.util.HashMap;
