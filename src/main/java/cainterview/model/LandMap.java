@@ -1,7 +1,6 @@
 package cainterview.model;
 
 import cainterview.init.LandMapCsvInitializer;
-import cainterview.validations.*;
 
 import java.util.*;
 import java.util.function.Function;
